@@ -6,7 +6,7 @@ A small utility to display the weather in your system tray on your Mac.
 SWT is built on Github Electron with React,
 
 ## Download
-[Click here](https://raw.githubusercontent.com/nckblu/simple-weather-tray/master/latest/latest.zip) to download the latest stable build.
+[Click here](https://github.com/nckblu/simple-weather-tray/raw/master/latest/latest.zip) to download the latest stable build.
 
 ## API
 SWT makes use of the [OpenWeatherMap API](https://openweathermap.org) at its core but all requests are routed through the [Simple Weather Tray API](https://github.com/nckblu/simple-weather-tray-api) project.

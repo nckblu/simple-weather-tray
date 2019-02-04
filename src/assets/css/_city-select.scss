@@ -1,0 +1,30 @@
+.CitySelect {
+  margin-top: 30px;
+  color: $black;
+
+  &__menu {
+    max-height: 180px !important;
+
+    &-list {
+      max-height: 180px !important;
+    }
+  }
+
+  &__button {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $white;
+    color: $black;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+
+    &--cancel {
+      color: $white;
+      background: transparent;
+      border: 2px solid $white;
+    }
+  }
+}

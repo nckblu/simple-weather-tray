@@ -1,0 +1,10 @@
+{
+  "presets": ["react", [
+    "babili",
+    {
+      "mangle": false,
+      "deadcode": false
+    }
+  ]],
+
+}

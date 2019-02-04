@@ -1,0 +1,55 @@
+.App {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+  position: relative;
+
+  &__icon {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  &__header {
+    padding-top: 20px;
+    font-weight: 500;
+  }
+
+  &__h1 {
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 30px;
+  }
+
+  &__temperature {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+
+  &__description {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  &__changeCity {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  &__quit {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  &__citySelect {
+    margin-top: 20px
+  }
+}
